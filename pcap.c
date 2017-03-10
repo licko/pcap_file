@@ -62,5 +62,7 @@ i32 pcapfile_write_data(u32 fd, u8 *data, u32 data_len)
       printf("Write data failed!\n");
       return -1;
     }
+  
+  return 0;
 }
 
